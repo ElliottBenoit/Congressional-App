@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 0c584c9c3305a944fa3d2d33218fb11f
+  - enabled: 1
+    path: Assets/Scenes/Search.unity
+    guid: 046cd29d43e13514fb5fd948324ba60d
+  - enabled: 1
+    path: Assets/Scenes/Calander.unity
+    guid: 82467fe46ed4f3f41a198e0f59b7d918
   m_configObjects: {}

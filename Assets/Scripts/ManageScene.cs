@@ -14,4 +14,19 @@ public class ManageScene : MonoBehaviour
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("Home");
+    }
+
+    public void Search()
+    {
+        SceneManager.LoadScene("Search");
+    }
+
+    public void Calander()
+    {
+        SceneManager.LoadScene("Calander");
+    }
 }
