@@ -11,7 +11,7 @@ public class ManageScene : MonoBehaviour
     }
     public IEnumerator LoadAfterAnim()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
